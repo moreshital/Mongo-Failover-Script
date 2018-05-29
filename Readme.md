@@ -49,9 +49,9 @@ Here are the steps to implement automatic failover for Mongo on Google Cloud Pla
          3. Add/Register itself to mongo cluster with HOSTNAME
 
 8. All this can be handled through a startup script in GCP. 
-9. Now add [this](https://github.com/moreshital/Mongo-Failover-Script/mongo-multi-az.sh) startup script for MIG-I
+9. Now add [this](https://github.com/moreshital/Mongo-Failover-Script/blob/master/mongo-multi-az.sh) startup script for MIG-I
 10. In case if arbiter nodes fails, MIG - II will lauch new node and it will automatically get added to the cluster using startup script.
-11. Add [this](https://github.com/moreshital/Mongo-Failover-Script/mongo-arb.sh) startup script for MIG - II.
+11. Add [this](https://github.com/moreshital/Mongo-Failover-Script/blob/master/mongo-arb.sh) startup script for MIG - II.
 
 12. We have completed our setup of mongoDB cluster with self healing ability.
 
