@@ -1,9 +1,15 @@
-## ** Self Healing MongoDB Cluster**
+## Self Healing MongoDB Cluster
 
+#### Prerequisites:
+- Google Cloud provider
+- Ubuntu 14.04
+ 
 We all love to sleep but what if in the middle of night one of your production DB cluster node goes down... Thats irritating.. So the solution is having a self healing cluster that will help us achieve high availability and automatic failover for the databases.
 
 
 ### MongoDB failover
+
+
 MongoDB provides out of the box failover for their systems
 
 - In primary-secondary architecture when primary node fails, secondary node takes its place.
@@ -28,7 +34,7 @@ Here is the system architecture for the same :
 
 ![New](https://s3.ap-south-1.amazonaws.com/cc-wiki-images/mongo.png)
 
-#### ** Setup Instructions **
+#### Setup Instructions
 
 Here are the steps to implement automatic failover for Mongo on Google Cloud Platform infrastructure:
 
